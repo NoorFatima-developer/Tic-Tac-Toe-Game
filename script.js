@@ -1,5 +1,5 @@
 // Target DOM elements:
-let boxes = document.querySelectorAll('.box');
+let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 
 let turnO = true;           //playerX, playerY
@@ -18,7 +18,15 @@ const winPatterns = [
     [6, 7, 8]
 ]
 
-boxes.forEach( (box) => {
-    console.log("box was clicked");
-    
+boxes.forEach((box) => {
+    box.addEventListener("click",  function(){
+        console.log("box was clicked");
+        if(turnO) {
+            boxes.innerHTML = "O";
+            turnO = false;
+    }   else {
+        boxes.innerHTML = "X";
+            turnO = true;
+    }
+})
 })
