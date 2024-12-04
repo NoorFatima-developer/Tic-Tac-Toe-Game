@@ -1,7 +1,8 @@
 // Target DOM elements:
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
-
+let newGameButton = document.querySelector(".msg-container");
+let msg = document.querySelector("#msg");
 let turnO = true;           //playerX, playerY
 
 // Store pattern in an array, wesy tu hum array ko string ki form mai b store krskty thy but its better way k aghr hum inko 
