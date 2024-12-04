@@ -9,5 +9,16 @@ body {
 }
 
 .container {
-    
+    height: 70vh;
+    background-color: red;
+}
+
+.game {
+    height: 60vmin;
+    background-color: orange;
+}
+
+.box {
+    height: 18vh;
+    width: 18vw;
 }
