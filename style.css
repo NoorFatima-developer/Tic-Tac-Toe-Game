@@ -68,12 +68,12 @@ h1 {
 }
 
 .msg-container {
-    height: 20vmin;
-    /* margin: 20px; */
-    /* display: flex;
+    height: 100vmin;
+    margin: 20px; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px; */
+    gap: 4rem;
 }
 
 .hide {
