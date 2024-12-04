@@ -35,11 +35,15 @@ boxes.forEach((box) => {
 
 const checkWin = function(){
     for(let pattern of winPatterns){
-       console.log(pattern[0], pattern[1], pattern[2]);
-       console.log(
-        boxes[pattern[0]].innerHTML,
-        boxes[pattern[1]].innerHTML,
-        boxes[pattern[2]].innerHTML
-    );     
+    //    console.log(pattern[0], pattern[1], pattern[2]);
+    //    console.log(
+    //     boxes[pattern[0]].innerHTML,
+    //     boxes[pattern[1]].innerHTML,
+    //     boxes[pattern[2]].innerHTML
+    // );    
+    
+    let pos1Val = boxes[pattern[0]].innerHTML;
+    let pos2Val = boxes[pattern[1]].innerHTML;
+    let pos3Val = boxes[pattern[2]].innerHTML;
  };
 }
