@@ -30,4 +30,6 @@ body {
 .box {
     height: 18vh;
     width: 18vmin;
+    border-radius: 1rem;
+    border: none;
 }
