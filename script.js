@@ -34,9 +34,13 @@ boxes.forEach((box) => {
     });
 });
 
+
+const disabledBoxes = () =>{
+    boxes.forEach((box) => box.disabled = true);
+}
 const showWinner = function(winner)  {
     msg.innerHTML = `Congratulations, Winner is ${winner}`;
-    msgContainer.classList.remove("hide")
+    msgContainer.classList.remove("hide");
 }
 
 const checkWin = function(){
@@ -56,7 +60,9 @@ const checkWin = function(){
     if(pos1Val === pos2Val && pos2Val === pos3Val){
         console.log("winner", pos1Val);
         showWinner(pos1Val);
+        disabledBoxes();
     }
   }
  };
-}
+};
+
