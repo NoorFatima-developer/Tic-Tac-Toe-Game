@@ -35,6 +35,8 @@ body {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
     color: #b0413e;
+    /* give explicit color to box(explicit khudsy dena, implicit means automatically dea hota hai) */
+    background-color: #ffffc7;  
 }
 
 #reset-btn {
