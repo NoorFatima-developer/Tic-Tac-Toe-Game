@@ -13,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
 }
 
 h1 {
@@ -29,18 +28,16 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
-    /* background-color: orange; */
 }
 
 .box {
     height: 18vh;
-    width: 18vmin;
+    width: 18vh;
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
     color: #b0413e;
-    /* give explicit color to box(explicit khudsy dena, implicit means automatically dea hota hai) */
     background-color: #ffffc7;  
 }
 
@@ -80,29 +77,30 @@ h1 {
     display: none;
 }
 
+/* Media Query for smaller devices */
 @media (max-width: 600px) {
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .game {
-        height: 80vmin;
-        width: 80vmin;
-        gap: 1vmin;
+        height: 90vmin;
+        width: 90vmin;
+        gap: 2vmin;
     }
 
     .box {
-        height: 22vh;
-        width: 22vmin;
-        font-size: 6vmin;
+        height: 20vh;
+        width: 20vh;
+        font-size: 5vmin;
     }
 
     #reset-btn, #new-btn {
-        padding: 0.75rem;
-        font-size: 1rem;
+        padding: 0.5rem;
+        font-size: 0.9rem;
     }
 
     #msg {
-        font-size: 6vmin;
+        font-size: 5vmin;
     }
 }
