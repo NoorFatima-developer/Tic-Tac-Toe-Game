@@ -83,8 +83,8 @@ h1 {
     }
 
     .game {
-        height: 90vmin;
-        width: 90vmin;
+        height: 60vmin;
+        width: 60vmin;
         gap: 1vmin;
     }
 
