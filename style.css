@@ -115,7 +115,7 @@ h1 {
 }
 
 
-edia (max-width: 575px) {
+@media (max-width: 575px) {
     h1 {
         font-size: 2rem;
     }
@@ -145,3 +145,4 @@ edia (max-width: 575px) {
         gap: 1.5rem;
         flex-direction: column;
     }
+}
