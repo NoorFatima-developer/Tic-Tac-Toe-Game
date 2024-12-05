@@ -93,6 +93,7 @@ h1 {
         height: 50vw;
         width: 25vw;
         font-size: 6vmin;
+        margin-top: 10px;
     }
 
     #reset-btn, #new-btn {
