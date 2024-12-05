@@ -77,7 +77,6 @@ h1 {
     display: none;
 }
 
-/* Media Query for smaller devices */
 @media (max-width: 600px) {
     h1 {
         font-size: 2.5rem;
@@ -98,6 +97,7 @@ h1 {
     #reset-btn, #new-btn {
         padding: 0.5rem;
         font-size: 0.9rem;
+        margin-top: 20px;
     }
 
     #msg {
