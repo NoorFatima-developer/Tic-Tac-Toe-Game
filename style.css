@@ -77,59 +77,21 @@ h1 {
     display: none;
 }
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
-        margin-bottom: 5rem;
-    }
-
-    .body {
-        gap: 5px
-    }
-    .game {
-        height: 60vmin;
-        width: 60vmin;
-        gap: 1vmin;
-    }
-
-    .box {
-        height: 25vw;
-        width: 25vw;
-        font-size: 6vmin;
-        margin-top: 50px;
-    }
-
-    #reset-btn, #new-btn {
-        padding: 0.5rem;
-        font-size: 1.25rem;
-    }
-
-    #msg {
-        font-size: 6vmin;
-    }
-
-    .msg-container {
-        gap: 2rem;
-        flex-direction: column;
-    }
-}
-
-
 @media (max-width: 575px) {
     h1 {
         font-size: 2rem;
     }
 
     .game {
-        height: 80vmin;
-        width: 80vmin;
-        gap: 1vmin;
+        height: 70vmin;
+        width: 70vmin;
+        gap: 0.5vmin;
     }
 
     .box {
-        height: 22vw;
-        width: 22vw;
-        font-size: 5vmin;
+        height: 20vw;
+        width: 20vw;
+        font-size: 4.5vmin;
     }
 
     #reset-btn, #new-btn {
@@ -138,8 +100,13 @@ h1 {
     }
 
     #msg {
-        font-size: 5vmin;
+        font-size: 4.5vmin;
     }
 
- 
+    .msg-container {
+        gap: 1rem;
+        flex-direction: column;
+    }
 }
+
+
