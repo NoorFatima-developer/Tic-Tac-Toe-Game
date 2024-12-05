@@ -79,3 +79,30 @@ h1 {
 .hide {
     display: none;
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .game {
+        height: 80vmin;
+        width: 80vmin;
+        gap: 1vmin;
+    }
+
+    .box {
+        height: 22vh;
+        width: 22vmin;
+        font-size: 6vmin;
+    }
+
+    #reset-btn, #new-btn {
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+
+    #msg {
+        font-size: 6vmin;
+    }
+}
