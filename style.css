@@ -83,6 +83,9 @@ h1 {
         margin-bottom: 5rem;
     }
 
+    .container {
+        height: 90vh;
+    }
     .game {
         height: 60vmin;
         width: 60vmin;
