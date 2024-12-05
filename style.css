@@ -79,28 +79,32 @@ h1 {
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .game {
         height: 90vmin;
         width: 90vmin;
-        gap: 2vmin;
+        gap: 1vmin;
     }
 
     .box {
-        height: 20vh;
-        width: 20vh;
-        font-size: 5vmin;
+        height: 25vw;
+        width: 25vw;
+        font-size: 6vmin;
     }
 
     #reset-btn, #new-btn {
         padding: 0.5rem;
-        font-size: 0.9rem;
-        margin-top: 20px;
+        font-size: 1rem;
     }
 
     #msg {
-        font-size: 5vmin;
+        font-size: 6vmin;
+    }
+
+    .msg-container {
+        gap: 2rem;
+        flex-direction: column;
     }
 }
