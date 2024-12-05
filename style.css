@@ -90,10 +90,10 @@ h1 {
     }
 
     .box {
-        height: 50vw;
+        height: 25vw;
         width: 25vw;
         font-size: 6vmin;
-        margin-top: 10px;
+        margin-top: 50px;
     }
 
     #reset-btn, #new-btn {
