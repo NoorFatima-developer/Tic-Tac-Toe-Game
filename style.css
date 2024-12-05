@@ -84,7 +84,7 @@ h1 {
     }
 
     .container {
-        height: 90vh;
+        gap: 5px
     }
     .game {
         height: 60vmin;
