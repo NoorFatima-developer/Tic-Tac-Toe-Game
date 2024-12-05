@@ -113,3 +113,35 @@ h1 {
         flex-direction: column;
     }
 }
+
+
+edia (max-width: 575px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .game {
+        height: 80vmin;
+        width: 80vmin;
+        gap: 1vmin;
+    }
+
+    .box {
+        height: 22vw;
+        width: 22vw;
+        font-size: 5vmin;
+    }
+
+    #reset-btn, #new-btn {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    #msg {
+        font-size: 5vmin;
+    }
+
+    .msg-container {
+        gap: 1.5rem;
+        flex-direction: column;
+    }
